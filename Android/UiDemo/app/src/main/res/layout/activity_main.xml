@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context="com.mouzhai.uidemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="340px"
+        android:layout_height="250px"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20px"
+            android:layout_marginStart="20px"
+            android:layout_marginTop="60px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50px"
+                android:layout_height="60px"
+                android:gravity="center"
+                android:text="@string/money"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="250px"
+                android:layout_height="60px"
+                android:gravity="center"
+                android:text="@string/_200_00"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300px"
+            android:layout_height="38px"
+            android:layout_marginBottom="60px"
+            android:layout_marginEnd="20px"
+            android:layout_marginStart="20px"
+            android:layout_marginTop="32px"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="10px"
+                android:layout_weight="1"
+                android:background="#ffffff" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="38px"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/click_to_get"
+                android:textColor="#ffffff"
+                android:textSize="20px" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10px"
+                android:layout_weight="1"
+                android:background="#ffffff" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="600px"
+        android:layout_height="250px"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="540px"
+            android:layout_height="44px"
+            android:layout_marginEnd="30px"
+            android:layout_marginStart="30px"
+            android:layout_marginTop="60px"
+            android:gravity="center"
+            android:textSize="35px"
+            android:maxLines="1"
+            android:text="@string/content" />
+
+        <TextView
+            android:layout_width="540px"
+            android:layout_height="34px"
+            android:layout_marginBottom="80px"
+            android:layout_marginEnd="30px"
+            android:layout_marginStart="30px"
+            android:layout_marginTop="32px"
+            android:gravity="center"
+            android:hint="@string/_2017_3_8_00_00_00"
+            android:textSize="30px" />
+    </LinearLayout>
+</LinearLayout>
