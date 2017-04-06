@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SlidingTabDemo</string>
+    <string name="first">FIRST</string>
+    <string name="second">SECOND</string>
+    <string name="third">THIRD</string>
+    <string name="firth">FIRTH</string>
+
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="third_fragment">Third Fragment</string>
+    <string name="firth_fragment">Firth Fragment</string>
+</resources>
