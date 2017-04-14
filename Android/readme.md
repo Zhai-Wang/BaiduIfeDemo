@@ -2,4 +2,4 @@
 * [复现 ANR](https://github.com/Zhai-Wang/BaiduIfeDemo/tree/master/Android/AnrDemo)
 * [复现 OOM](https://github.com/Zhai-Wang/BaiduIfeDemo/tree/master/Android/OomDemo)
 * [实现一个 UI 布局](https://github.com/Zhai-Wang/BaiduIfeDemo/tree/master/Android/UiDemo)
-* [实现一个TAB布局](https://github.com/Zhai-Wang/BaiduIfeDemo/tree/master/Android/SlidingTabDemo/app/src/main)
+* [实现一个TAB布局](https://github.com/Zhai-Wang/BaiduIfeDemo/tree/master/Android/SlidingTabDemo)
