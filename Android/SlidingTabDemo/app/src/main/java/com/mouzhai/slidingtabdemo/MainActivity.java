@@ -25,11 +25,6 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     private TextView tvThird;
     private TextView tvFirth;
 
-    private FirstFragment firstFragment;
-    private SecondFragment secondFragment;
-    private ThirdFragment thirdFragment;
-    private FirthFragment firthFragment;
-
     private List<Fragment> fragments = new ArrayList<>();
 
     @Override
@@ -56,10 +51,10 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
         tvThird.setOnClickListener(this);
         tvFirth.setOnClickListener(this);
 
-        firstFragment = new FirstFragment();
-        secondFragment = new SecondFragment();
-        thirdFragment = new ThirdFragment();
-        firthFragment = new FirthFragment();
+        FirstFragment firstFragment = new FirstFragment();
+        SecondFragment secondFragment = new SecondFragment();
+        ThirdFragment thirdFragment = new ThirdFragment();
+        FirthFragment firthFragment = new FirthFragment();
 
         fragments.add(firstFragment);
         fragments.add(secondFragment);
