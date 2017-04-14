@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TabLayoutDemo</string>
+    <string name="fragment">Fragment</string>
 </resources>
