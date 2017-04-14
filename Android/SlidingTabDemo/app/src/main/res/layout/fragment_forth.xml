@@ -2,13 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mouzhai.slidingtabdemo.fragment.FirthFragment">
+    tools:context="com.mouzhai.slidingtabdemo.fragment.ForthFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="@string/firth_fragment"
+        android:text="@string/forth_fragment"
         android:textSize="50sp" />
 
 </FrameLayout>

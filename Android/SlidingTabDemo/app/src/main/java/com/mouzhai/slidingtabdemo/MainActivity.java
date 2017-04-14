@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.mouzhai.slidingtabdemo.adapter.MyFragmentAdapter;
 import com.mouzhai.slidingtabdemo.fragment.FirstFragment;
-import com.mouzhai.slidingtabdemo.fragment.FirthFragment;
+import com.mouzhai.slidingtabdemo.fragment.ForthFragment;
 import com.mouzhai.slidingtabdemo.fragment.SecondFragment;
 import com.mouzhai.slidingtabdemo.fragment.ThirdFragment;
 
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     private TextView tvFirst;
     private TextView tvSecond;
     private TextView tvThird;
-    private TextView tvFirth;
+    private TextView tvForth;
 
     private List<Fragment> fragments = new ArrayList<>();
 
@@ -43,23 +43,23 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
         tvFirst = (TextView) findViewById(R.id.tv_first);
         tvSecond = (TextView) findViewById(R.id.tv_second);
         tvThird = (TextView) findViewById(R.id.tv_third);
-        tvFirth = (TextView) findViewById(R.id.tv_firth);
+        tvForth = (TextView) findViewById(R.id.tv_firth);
 
         viewPager.addOnPageChangeListener(this);
         tvFirst.setOnClickListener(this);
         tvSecond.setOnClickListener(this);
         tvThird.setOnClickListener(this);
-        tvFirth.setOnClickListener(this);
+        tvForth.setOnClickListener(this);
 
         FirstFragment firstFragment = new FirstFragment();
         SecondFragment secondFragment = new SecondFragment();
         ThirdFragment thirdFragment = new ThirdFragment();
-        FirthFragment firthFragment = new FirthFragment();
+        ForthFragment forthFragment = new ForthFragment();
 
         fragments.add(firstFragment);
         fragments.add(secondFragment);
         fragments.add(thirdFragment);
-        fragments.add(firthFragment);
+        fragments.add(forthFragment);
 
         MyFragmentAdapter myFragmentAdapter =
                 new MyFragmentAdapter(getSupportFragmentManager(), fragments);
@@ -99,25 +99,25 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
                 tvFirst.setTextColor(Color.rgb(0, 0, 0));
                 tvSecond.setTextColor(Color.rgb(255, 255, 255));
                 tvThird.setTextColor(Color.rgb(255, 255, 255));
-                tvFirth.setTextColor(Color.rgb(255, 255, 255));
+                tvForth.setTextColor(Color.rgb(255, 255, 255));
                 break;
             case 1:
                 tvFirst.setTextColor(Color.rgb(255, 255, 255));
                 tvSecond.setTextColor(Color.rgb(0, 0, 0));
                 tvThird.setTextColor(Color.rgb(255, 255, 255));
-                tvFirth.setTextColor(Color.rgb(255, 255, 255));
+                tvForth.setTextColor(Color.rgb(255, 255, 255));
                 break;
             case 2:
                 tvFirst.setTextColor(Color.rgb(255, 255, 255));
                 tvSecond.setTextColor(Color.rgb(255, 255, 255));
                 tvThird.setTextColor(Color.rgb(0, 0, 0));
-                tvFirth.setTextColor(Color.rgb(255, 255, 255));
+                tvForth.setTextColor(Color.rgb(255, 255, 255));
                 break;
             case 3:
                 tvFirst.setTextColor(Color.rgb(255, 255, 255));
                 tvSecond.setTextColor(Color.rgb(255, 255, 255));
                 tvThird.setTextColor(Color.rgb(255, 255, 255));
-                tvFirth.setTextColor(Color.rgb(0, 0, 0));
+                tvForth.setTextColor(Color.rgb(0, 0, 0));
                 break;
         }
     }
